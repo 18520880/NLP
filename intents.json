@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Alo",
+        "Co ai khong?",
+        "Hello",
+        "Chao"
+      ],
+      "responses": [
+        "Chao ban :)",
+        "Kinh chao quy khach",
+        "Xin chao, toi co the giup gi cho ban?"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Hen gap lai", "Goodbye"],
+      "responses": [
+        "Cam on da ghe qua chung toi",
+        "Chuc ban mot ngay tot lanh",
+        "Han hanh duoc phuc vu ban."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That la thu vi", "Cam on rat nhieu"],
+      "responses": ["Rat vui duoc giup do ban", "Rat han hanh", 
+      "Giup do ban la vinh du cua chung toi"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "O day ban cai gi?",
+        "Co loai san pham nao dang ban?",
+        "Loai nao dang ban"
+      ],
+      "responses": [
+        "Chung toi ban ca phe va tra sua",
+        "Chung toi phuc vu ca phe va tra sua"
+      
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Co the tra bang the tin dung khong?",
+        "Co chap nhan tra bang Mastercard khong?",
+        "Co the tra bang Paypal khong?",
+        "Ngoai tien mat tra duoc bang the tin dung khong?"
+      ],
+      "responses": [
+        "Ban co the tra bang VISA, Mastercard, hoac Paypal ",
+        "Chung toi chap nhan cac loai the tin dung hop le"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Giao hang mat bao lau?",
+        "Ship mat bao lau?",
+        "Khi nao giao hang toi?"
+      ],
+      "responses": [
+        "Giao hang thuong 2-4 gio",
+        "Ship thuong 2-4 gio"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "Bao nhieu?",
+        "Gia ca bao nhieu?",
+        "Tra bao nhieu tien"
+        
+      ],
+      "responses": [
+        "Ca phe la 15000VND, Tra sua 25000VND"
+      ]
+    }
+  ]
+}
